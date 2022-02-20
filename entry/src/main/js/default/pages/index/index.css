@@ -1,0 +1,84 @@
+.container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.title {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    opacity: 0.9;
+    font-size: 28px;
+}
+.item{
+    width: 325px;
+    padding: 10px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee;
+}
+.todo{
+    color: #000;
+    width: 180px;
+    font-size: 18px;
+}
+.switch{
+    font-size: 12px;
+    texton-color: green;
+    textoff-color:red;
+    text-padding: 5px;
+    width: 100px;
+    height: 24px;
+    allow-scale: false;
+}
+.remove {
+    font-size: 12px;
+    margin-left: 10px;
+    width: 50px;
+    height: 22px;
+    color: #fff;
+    background-color: red;
+}
+.info{
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+}
+.info-text {
+    font-size: 18px;
+    color: #AD7A1B;
+}
+.info-num{
+    color: orangered;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.infotwo{
+
+    justify-content: center;
+}
+.add-todo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ddd;
+}
+
+.plan-input {
+    width: 240px;
+    height: 40px;
+    background-color: #fff;
+}
+.plan-btn {
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+}
